@@ -29,7 +29,7 @@ class third_screen : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        nama = arguments?.getString("nama").toString()
+        nama = arguments?.getString("name").toString()
 
         recyclerView = view.findViewById(R.id.recycler_view)
         swipeRefreshLayout = view.findViewById(R.id.swipe_to_refresh)
