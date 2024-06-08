@@ -33,7 +33,8 @@ class second_screen : Fragment(R.layout.fragment_second_screen) {
 
         val backButton = view.findViewById<Button>(R.id.back)
 //        backButton.setOnClickListener {
-//            requireActivity().supportFragmentManager.popBackStack()
+////            requireActivity().supportFragmentManager.popBackStack()
+//            requireActivity().finish()
 //            requireActivity().findViewById<View>(R.id.main_content).visibility = View.VISIBLE
 //        }
         backButton.setOnClickListener {
